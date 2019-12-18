@@ -9,7 +9,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       releaseDate: { type: Sequelize.STRING },
-      runTime: { type: Sequelize.STRING },
+      runTime: { type: Sequelize.INTEGER },
       ratings: { type: Sequelize.STRING },
       createdAt: {
         type: Sequelize.DATE,

@@ -34,7 +34,7 @@ module.exports = {
   Movies,
   Directors,
   Genres,
-  MoviesDirector,
   MovieGenre,
+  MoviesDirector,
   Op
 }

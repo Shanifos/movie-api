@@ -1,7 +1,5 @@
 const bodyParser = require('body-parser')
 const express = require('express')
-const models = require('./models')
-const Sequelize = require('sequelize')
 const app = express()
 const { deleteMovie, getAllMovies, movieById, getByDirectorID, postMovies, getByGenre,
   patchMovie } = require('./controllers/movieController')
